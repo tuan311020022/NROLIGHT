@@ -1,0 +1,117 @@
+/* .Link{
+    text-decoration: none;
+    color:white;
+} */
+
+.background1{
+    display: flex;
+    justify-content: center;
+}
+
+.Back{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+.Head{
+    position: relative;
+    width: 50vw;
+    height: auto;
+    min-width: 380px;
+    background-color: rgba(34, 236, 250, 0.678);
+    border-radius: 15px;
+    margin-top: 5px;
+    padding: 5px 5px 0px 5px;
+    text-align: center;
+}
+
+.Align-Logo{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(16, 122, 130, 0.728);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.Logo{
+    width: 25vw;
+    height: 150px;
+    min-width: 300px                                 ;
+}
+
+.Align-Page{
+    background-color: rgba(16, 122, 130, 0.728);
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 5px 0px 5px;
+}
+
+.Button-Page{
+    width: 16.5vw;
+    min-width: 100px;
+    height: auto;
+    min-height: 40px;
+    background-color: rgb(254, 60, 105);
+    color: white;
+    border-style: groove;
+    border-color: rgb(169, 169, 255);
+}
+
+.Button-Page:hover{
+    background-color: rgb(250, 17, 71)
+}
+
+.Align-Client{
+    background-color: rgba(16, 122, 130, 0.728);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.Button-Client{
+    width: 7vw;
+    min-width: 100px;
+    height: auto;
+    min-height: 40px;
+    background-color: rgb(24, 97, 251);
+    color: white;
+    border-radius: 15px;
+    border-style: inset;
+    margin: 8px;
+    border-style: none;
+    border-bottom-color: black !important;
+    border-bottom-style: double;
+}
+
+.Button-Client:hover{
+    background-color: rgb(0, 39, 103);
+}
+
+.Align-Option{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Button-Option{
+    width: 7vw;
+    min-width: 100px;
+    height: auto;
+    min-height: 40px;
+    margin: 25px;
+    background-color: rgb(255, 164, 68);
+    color: white;
+    border-radius: 15px;
+    border-style: inset;
+    margin: 8px;
+    border-style: none;
+    border-bottom-color: black !important;
+    border-bottom-style: double;
+}
+
+.Button-Option:hover{
+    background-color: rgb(138, 90, 39);
+}
