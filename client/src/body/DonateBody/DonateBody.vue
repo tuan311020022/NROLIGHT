@@ -7,16 +7,16 @@
                 </h2>
                 <div class="form-floating mb-3 Input">
                     <div class="Name">
-                        Tên
+                        {{ this.Name}}
                     </div>
                 </div>
                 <select v-model="Type" class="form-select form-select-lg mb-3 Input" aria-label=".form-select-lg example" >
                     <option value="" selected>Loại thẻ</option>
-                    <option value="Viettel">Viettel</option>
-                    <option value="MobiFone">MobiFone</option>
-                    <option value="VinaPhone">VinaPhone</option>
-                    <option value="Gate">Gate</option>
-                    <option value="Zing">Zing</option>
+                    <option value="VIETTEL">Viettel</option>
+                    <option value="MOBIFONE">MobiFone</option>
+                    <option value="VINAPHONE">VinaPhone</option>
+                    <option value="GATE">Gate</option>
+                    <option value="ZING">Zing</option>
                 </select>
                 <select v-model="Mount" class="form-select form-select-lg mb-3 Input" aria-label=".form-select-lg example">
                     <option value="" selected>Mệnh giá</option>

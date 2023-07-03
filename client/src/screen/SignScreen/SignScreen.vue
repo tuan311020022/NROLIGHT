@@ -2,6 +2,7 @@
     <div>
         <HeaderPage/>
         <SignBody/>
+        <FooterPage/>
     </div>
 </template>
 

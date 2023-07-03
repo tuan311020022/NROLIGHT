@@ -1,0 +1,72 @@
+.Container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.Led{
+    position: absolute;
+    width: 300px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(129, 212, 245);
+    overflow: hidden;
+    border-radius: 12px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Led::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 500px;
+    background: linear-gradient(rgb(255, 132, 0),rgb(255, 0, 0));
+    animation: animate 4s linear infinite;
+    z-index: 2;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(350deg);
+    }
+}
+
+.Footer{
+    width: 290px;
+    height: 160px;
+    background-color: rgb(56, 126, 255);
+    position: absolute;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    border-radius: 9px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.Icon{
+    width: 140px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(69, 69, 255);
+    margin: 5px;
+    border-radius: 15px;    
+}
+
+.Icon:hover{
+    background-color: blue;
+    color: white;
+}

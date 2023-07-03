@@ -2,6 +2,7 @@
     <div>
         <HeaderPage/>
         <DonateBody/>
+        <FooterPage/>
     </div>
 </template>
 

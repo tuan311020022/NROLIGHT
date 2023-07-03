@@ -2,6 +2,7 @@
     <div>
         <HeaderPage/>
         <LoginBody/>
+        <FooterPage/>
     </div>
 </template>
 

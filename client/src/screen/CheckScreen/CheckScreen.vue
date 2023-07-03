@@ -1,6 +1,6 @@
 <template>
     <div>
-        <HeaderPage/>
+        <!-- <HeaderPage/> -->
         <CheckBody/>
     </div>
 </template>

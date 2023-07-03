@@ -8,9 +8,13 @@ import { fas } from "@fortawesome/free-solid-svg-icons";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap";
 
+const BaseURL = process.env.VUE_APP_API_URL;
+
 library.add(fas);
 
 const app = createApp(App).component("fa", FontAwesomeIcon).use(router);
 app.mount("#app");
 
 import "bootstrap/dist/js/bootstrap.js";
+
+export default BaseURL;

@@ -2,6 +2,7 @@
     <div>
         <HeaderPage/>
         <ChangeBody/>
+        <FooterPage/>
     </div>
 </template>
 

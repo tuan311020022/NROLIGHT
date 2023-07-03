@@ -2,6 +2,7 @@
     <div>
         <HeaderPage/>
         <HomeBody/>
+        <FooterPage/>
     </div>
 </template>
 

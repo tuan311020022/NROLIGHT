@@ -17,7 +17,7 @@
                     <input v-model="this.rePassWord" type="password" class="form-control" id="floatingPassword" placeholder="Password">
                     <label for="floatingPassword">Re-Password</label>
                 </div>
-                <button class="btn btn-light btn-lg" type="submit" @click="signIn()">Đăng nhập</button>
+                <button class="btn btn-light btn-lg" type="submit" @click="signUp()">Đăng ký</button>
             </div>
         </div>
     </div>
