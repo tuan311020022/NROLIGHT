@@ -19,8 +19,8 @@ function sendMail($username, $password)
     $mail->isSMTP(); // gửi mail SMTP
     $mail->Host = 'smtp.gmail.com'; // Set the SMTP server to send through
     $mail->SMTPAuth = true; // Enable SMTP authentication
-    $mail->Username = 'nrolight.contact@gmail.com'; // SMTP username
-    $mail->Password = 'igplamftiwbrvujb'; // SMTP password
+    $mail->Username = 'nroodin.contact@gmail.com'; // SMTP username
+    $mail->Password = 'kqylbtkzssexeeba'; // SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` also accepted
     $mail->Port = 587; // TCP port to connect to
 
