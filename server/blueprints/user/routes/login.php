@@ -13,13 +13,13 @@ $password = $_POST['password'];
 $key = 'super-secret';
 
 $account = mysqli_fetch_assoc(mysqli_query($connect, "SELECT * FROM `account` WHERE `username`='" . $username . "' AND `password`='" . $password . "'"));
+
 if ($account) {
     $player = mysqli_fetch_assoc(mysqli_query($connect, "SELECT * FROM `player` WHERE `account_id`='" . $account['id'] . "'")); {
-        $name = $player['name'];
         $issuedAt = time();
         $expirationTime = $issuedAt + 60 * 60 * 24;
         $payload = [
-            'username' => $name,
+            'username' => $account['username'],
             'iat' => $issuedAt,
             'exp' => $expirationTime,
         ];
@@ -27,7 +27,7 @@ if ($account) {
         mysqli_close($connect);
         echo json_encode(
             [
-                "username" => $name,
+                "username" => $account['username'],
                 "access_token" => $access_token,
                 "check" => 1
             ]
