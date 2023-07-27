@@ -6,6 +6,7 @@ import SignScreen from '../screen/SignScreen/SignScreen.vue';
 import ChangeScreen from '../screen/ChangeScreen/ChangeScreen.vue';
 import DonateScreen from '../screen/DonateScreen/DonateScreen.vue';
 import CheckScreen from '../screen/CheckScreen/CheckScreen.vue';
+import LinkScreen from '@/screen/LinkScreen/LinkScreen.vue';
 
 const routes = [
 	{
@@ -37,7 +38,12 @@ const routes = [
 		path: '/Check',
 		name: 'Check',
 		component: CheckScreen
-	}
+	},
+	{
+		path: '/Link',
+		name: 'Link',
+		component: LinkScreen
+	},
 ];
 
 const router = createRouter({
